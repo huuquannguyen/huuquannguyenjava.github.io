@@ -11,9 +11,11 @@ public class ex {
     
 
     public static void ex1(Scanner input) {
-        
+        int a;
+        do{
         System.out.println("nhap a: ");
-        int a = input.nextInt();
+         a = input.nextInt();
+        } while (a < 0);
         System.out.println("nhap b: ");
         int b = input.nextInt();
         System.out.println("nhap c: ");
