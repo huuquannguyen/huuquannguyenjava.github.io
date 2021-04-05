@@ -73,9 +73,10 @@ public class Employee {
     }
 
     //get data
-    public void getData() {
+    public void putData() {
         System.out.println("ID: ");
         id = input.nextInt();
+        input.nextLine();
         System.out.println("Name: ");
         name = input.nextLine();
         System.out.println("Data of Birth: ");
