@@ -1,0 +1,4 @@
+- annotation dùng để đánh dấu
+- @override: nếu thay đổi tên của method của lớp cha thì lớp con đã override method của lớp cha sẽ báo lỗi thay vì java sẽ xác định đó là method riêng của lớp con
+- @Deprecated: thông báo đã lỗi thời và không nên sử dụng nữa
+- @Supresswarnings: loại bỏ thông báo
