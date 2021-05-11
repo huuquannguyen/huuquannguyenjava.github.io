@@ -2,16 +2,21 @@ import java.util.Random;
 
 public abstract class Animal {
     
+    //variable border là giới hạn của pos
     private String name;
     private Pos position;
     private final int border;
 
+
+    //constructor set vị trí mặc định của con vật
     public Animal(String name, Pos position, int border) {
         this.name = name;
         this.position = position;
         this.border = border;
     }
 
+    //constructor set vị trí ngẫu nhiên của con vật
+    //nhận border là giới hạn để lấy số random
     public Animal(String name, int border) {
         this.name = name;
         this.border = border;
@@ -35,12 +40,14 @@ public abstract class Animal {
         this.position = position;
     }
 
+    //method để set vị trí ngẫu nhiên cho con vật
     public void setRandomPosition() {
-            Random r = new Random();
-            position.setX(r.nextInt(border));
-            position.setY(r.nextInt(border));
+        Random r = new Random();
+        position.setX(r.nextInt(border));
+        position.setY(r.nextInt(border));
     }
     
+    // abstract method sẽ được định nghĩa cụ thể trong mỗi lớp con vật
     public abstract void move();
     
     @Override

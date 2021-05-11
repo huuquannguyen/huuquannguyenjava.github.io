@@ -1,14 +1,11 @@
-## Getting Started
+- Luật chơi: 
+    Có 1 bàn đấu gồm 7 con vật khác nhau.
+    Mỗi con vật sẽ có 1 cách di chuyển khác nhau.
+    Từng con vật sẽ di chuyển lần lượt theo cách của mình
+    Khi có 2 con vật gặp nhau thì chúng sẽ đánh nhau và 1 trong 2 sẽ bị loại
+    Con vật còn lại cuối cùng sẽ chiền thắng
+- Abstract Class Animal (Pos, name, move())
+- Từng class kế thừa animal
+- Board
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+    
